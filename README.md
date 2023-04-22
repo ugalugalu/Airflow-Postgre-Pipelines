@@ -7,6 +7,8 @@ BRIEF DOCUMENTATION
 1.	The use of default parameters Dictionary:  Default args dictionary was used to simplify and ensure that arguments are standard for all the tasks.
 2.	Name of tasks and Dag’s: The names were straight forward for ease of troubleshooting and maintenance.
 3.	The number of tasks used were precise to tasks at Hand: The tasks were precise to Extraction, Transformation and Loading of Data to the Database
+
+
 Recommendations to Run the Pipeline in Cloud Providers
 
 1.	The solution can be deployed to cloud providers like Google cloud to ensure stability and performance by having more executors. On my local machine am using only one executor which is not scalable.
